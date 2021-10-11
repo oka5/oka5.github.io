@@ -61,8 +61,8 @@ a:hover::after {
     background-attachment: fixed;
     color: #555555;
 
-    margin-top: -50px;
-    padding-top
+    margin-top: 50px;
+    
     text-align: center;
     
 }
