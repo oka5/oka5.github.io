@@ -61,9 +61,9 @@ a:hover::after {
     background-attachment: fixed;
     color: #555555;
 
-    margin-top: 50px;
+    margin-top: -50px;
     text-align: center;
-    font-family: 'cursive';
+    
 }
 
 
@@ -129,17 +129,10 @@ a:hover::after {
 
 
 
-.container {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 200px 1fr;
-}
-
 .header {
     position: fixed;
     display: inline-block;
     margin: 0 10px;
-    grid-column: 200px;
     background-color: #e597b2;
     width: auto;
     height: 50px;
